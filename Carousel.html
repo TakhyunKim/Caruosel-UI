@@ -1,50 +1,33 @@
 <!DOCTYPE html>
-<html lang="ki">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="KimTakhyun" content="width=device-width, initial-scale=1.0">
-    <title>Carousel UI 기능 구현</title>
+    <meta name="KimTakHyun" content="width=device-width, initial-scale=1.0">
+    <title>Carousel UI 구현</title>
 
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Carousel.css">
 </head>
 <body>
-    <!-- UI 구현 -->
-    <div class="contents">
-        <!-- left, right Button -->
-        <div class="button">
-            <button class="left_btn ir_pm">왼쪽 버튼</button>
-            <button class="right_btn ir_pm">오른쪽 버튼</button>
-        </div>
-        <!-- //left, right Button -->
+    <!-- 상단 슬라이드 파트 -->
+    <div class="slider">
 
-        <!-- 중앙 이미지 -->
-        <div class="contents_img">
-            <div class="img_1"><img src="#" alt="첫번째 이미지">1</div>
-            <div class="img_2"><img src="#" alt="두번째 이미지">2</div>
-            <div class="img_3"><img src="#" alt="세번째 이미지">3</div>
-            <div class="img_4"><img src="#" alt="네번째 이미지">4</div>
-            <div class="img_5"><img src="#" alt="다섯번째 이미지">5</div>
-            <div class="img_6"><img src="#" alt="여섯번째 이미지">6</div>
-        </div>
-        <!-- //중앙 이미지 -->
+        <!-- 슬라이드 -->
+            <div class="slide showing">1</div>
+            <div class="slide">2</div>
+            <div class="slide">3</div>
+            <div class="slide">4</div>
+            <div class="slide">5</div>
+            <div class="slide">6</div>
+        <!-- // 슬라이드 -->
 
-        <!-- 이미지 하단 dot -->
-        <div class="img_dot">
-            <div class="dot_1">1_dot</div>
-            <div class="dot_2">2_dot</div>
-            <div class="dot_3">3_dot</div>
-            <div class="dot_4">4_dot</div>
-            <div class="dot_5">5_dot</div>
-            <div class="dot_6">6_dot</div>
-        </div>
-        <!-- //이미지 하단 dot -->
+        <!-- 좌우 버튼 -->
+            <button class="left_btn" onclick="left_move();"><</button>
+            <button class="right_btn" onclick="right_move();">></button>
+        <!-- // 좌우 버튼 -->
 
     </div>
-    <!-- //UI 구현 -->
+    <!-- // 상단 슬라이드 파트 -->
 
-    <!-- 자바스크립트 -->
     <script src="Carousel.js"></script>
-    <!-- //자바스크립트 -->
 </body>
 </html>
