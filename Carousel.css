@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+/* contents 바탕 */
+.contents {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 1500px;
+    height: 300px;
+}
+/* //contents 바탕 */
+
+/* 버튼 작업 */
+.button {
+    display: inline-block;
+}
+
+.button .left_btn {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    background: url(/img/left.png) no-repeat;
+    background-size: 25px;
+    background-position: 2px;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+
+.button .right_btn {
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    background: url(/img/right.png) no-repeat;
+    background-size: 25px;
+    background-position: 5px;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+/* //버튼 작업 */
+
+/* 콘텐츠 이미지 */
+.contents_img {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.contents_img .img_1 {
+    
+}
+/* //콘텐츠 이미지 */
+
+
